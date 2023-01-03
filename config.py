@@ -26,8 +26,8 @@ MSG_PERMIT = (
 class Var:
     API_HASH = getenv("API_HASH")
     API_ID = int(getenv("API_ID", ""))
-    ALIVE_PIC = getenv("ALIVE_PIC", "https://telegra.ph/file/9f8e73d387f25b7f27ce5.jpg")
-    ALIVE_TEXT = getenv("ALIVE_TEXT", "Hey, Saya AyiinUbot Dibuat dengan basis pyrogram versi terbaru")
+    ALIVE_PIC = getenv("ALIVE_PIC", ""https://telegra.ph/file/08a826d4a7460dc2fd74a.jpg)
+    ALIVE_TEXT = getenv("ALIVE_TEXT", "Yo tod:v")
     BOT_TOKEN = getenv("BOT_TOKEN", "")
     BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
     if not BLACKLIST_CHAT:
