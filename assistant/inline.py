@@ -119,7 +119,7 @@ async def inline_result(_: Client, iq):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     out_ping = (
-        f"<b>✧ Aʏɪɪɴ Uʙᴏᴛ ✧</b>\n\n"
+        f"<b>✧ Uʙᴏᴛ ✧</b>\n\n"
         f"<b>✧ Pɪɴɢᴇʀ :</b> <code>{duration}ms</code>\n"
         f"<b>✧ Uᴘᴛɪᴍᴇ :</b> <code>{uptime}</code>"
     )
